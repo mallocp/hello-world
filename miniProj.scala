@@ -38,7 +38,7 @@ class miniProj(spark: SparkSession) {
   val bSummary = summary.asInstanceOf[BinaryLogisticRegressionSummary]
 
   val auc = bSummary.areaUnderROC
-  val roc = bSummary.roc
+  //val roc = bSummary.roc
 
 
 
